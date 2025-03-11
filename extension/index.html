@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Title</title>
+
+  <style>
+    html {
+      height: 100px;
+      width: 100px;
+    }
+
+    .check {
+      display: flex;
+      align-items: center;
+    }
+
+    .check * {
+      cursor: pointer;
+    }
+
+    .check label {
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class='check'>
+    <input type='checkbox' checked='' id='enabled' />
+    <label for='enabled'>Enabled</label>
+  </div>
+  <script src='index.js'></script>
+</body>
+</html>
